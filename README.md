@@ -1,16 +1,30 @@
-# React + Vite
+# ❌⭕ Jeu du Morpion (Tic-Tac-Toe) - Introduction à React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une implémentation du célèbre jeu du Morpion (Tic-Tac-Toe), réalisée en suivant le tutoriel officiel de React.
 
-Currently, two official plugins are available:
+## 🚀 Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Grille de jeu interactive 3x3.
+* Détection automatique du vainqueur ou du match nul.
+* **Historique des coups (Time Travel)** : Possibilité de revenir à n'importe quel tour précédent.
+* Affichage dynamique du joueur actif ("X" ou "O").
 
-## React Compiler
+## 🛠️ Stack Technique
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** (Hooks, Components, State)
+* **Vite** (Pour l'environnement de développement)
+* **CSS3** (Style basique)
 
-## Expanding the ESLint configuration
+## 📚 Concepts abordés
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce projet m'a permis de mettre en pratique les concepts fondamentaux de React :
+* Création et imbrication de **Composants**.
+* Utilisation des **Props** pour passer des données.
+* Gestion de l'état local avec le hook **`useState`**.
+* **Remontée d'état (Lifting State Up)** pour partager l'information entre composants parents et enfants.
+* Immutabilité des données.
+* Rendu conditionnel et rendu de listes (pour l'historique).
+
+## 🔗 Référence
+
+Basé sur le [tutoriel officiel de React.dev](https://fr.react.dev/learn/tutorial-tic-tac-toe).
